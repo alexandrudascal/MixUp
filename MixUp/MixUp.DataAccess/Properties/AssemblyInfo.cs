@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MixUp.Data")]
+[assembly: AssemblyTitle("MixUp.DataAccess")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MixUp.Data")]
+[assembly: AssemblyProduct("MixUp.DataAccess")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6264e3fe-9f69-4995-b839-dd333968a306")]
+[assembly: Guid("e459a46a-9b5b-4acc-999b-f3f66caab674")]
 
 // Version information for an assembly consists of the following four values:
 //
