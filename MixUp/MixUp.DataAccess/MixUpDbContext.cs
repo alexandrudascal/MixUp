@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MixUp.DataAccess
 {
-    public class MixUpDbContext : IdentityDbContext<User>
+    public class MixUpDbContext : IdentityDbContext<MixUpUser>
     {
         public MixUpDbContext()
             :base("MixUpContext")

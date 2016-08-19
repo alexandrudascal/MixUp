@@ -86,10 +86,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MixUpUserManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MixUp.DataAccess\MixUp.DataAccess.csproj">
+      <Project>{e459a46a-9b5b-4acc-999b-f3f66caab674}</Project>
+      <Name>MixUp.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MixUp.Entities\MixUp.Entities.csproj">
+      <Project>{24c28bd6-0e9b-4f93-9eef-035e455b4e3f}</Project>
+      <Name>MixUp.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
