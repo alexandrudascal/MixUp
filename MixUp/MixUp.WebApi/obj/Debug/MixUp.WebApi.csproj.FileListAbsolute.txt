@@ -80,3 +80,7 @@ D:\projects\MixUp\MixUp\MixUp.WebApi\bin\Antlr3.Runtime.pdb
 D:\projects\MixUp\MixUp\MixUp.WebApi\obj\Debug\MixUp.WebApi.csprojResolveAssemblyReference.cache
 D:\projects\MixUp\MixUp\MixUp.WebApi\obj\Debug\MixUp.WebApi.dll
 D:\projects\MixUp\MixUp\MixUp.WebApi\obj\Debug\MixUp.WebApi.pdb
+D:\projects\MixUp\MixUp\MixUp.WebApi\bin\MixUp.DataAccess.dll
+D:\projects\MixUp\MixUp\MixUp.WebApi\bin\MixUp.Infrastructure.dll
+D:\projects\MixUp\MixUp\MixUp.WebApi\bin\MixUp.DataAccess.pdb
+D:\projects\MixUp\MixUp\MixUp.WebApi\bin\MixUp.Infrastructure.pdb

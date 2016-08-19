@@ -201,6 +201,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
@@ -291,9 +292,17 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MixUp.DataAccess\MixUp.DataAccess.csproj">
+      <Project>{E459A46A-9B5B-4ACC-999B-F3F66CAAB674}</Project>
+      <Name>MixUp.DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MixUp.Entities\MixUp.Entities.csproj">
       <Project>{24c28bd6-0e9b-4f93-9eef-035e455b4e3f}</Project>
       <Name>MixUp.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MixUp.Infrastructure\MixUp.Infrastructure.csproj">
+      <Project>{630B2C2D-2336-4D61-A07A-769B3D02846E}</Project>
+      <Name>MixUp.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
