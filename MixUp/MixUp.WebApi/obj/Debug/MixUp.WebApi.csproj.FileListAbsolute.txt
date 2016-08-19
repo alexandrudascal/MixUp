@@ -84,3 +84,5 @@ D:\projects\MixUp\MixUp\MixUp.WebApi\bin\MixUp.DataAccess.dll
 D:\projects\MixUp\MixUp\MixUp.WebApi\bin\MixUp.Infrastructure.dll
 D:\projects\MixUp\MixUp\MixUp.WebApi\bin\MixUp.DataAccess.pdb
 D:\projects\MixUp\MixUp\MixUp.WebApi\bin\MixUp.Infrastructure.pdb
+D:\projects\MixUp\MixUp\MixUp.WebApi\bin\System.Web.Http.Owin.dll
+D:\projects\MixUp\MixUp\MixUp.WebApi\bin\System.Web.Http.Owin.xml

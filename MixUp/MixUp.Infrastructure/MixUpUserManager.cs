@@ -14,9 +14,9 @@ namespace MixUp.Infrastructure
         }
         public static MixUpUserManager Create(IdentityFactoryOptions<MixUpUserManager> options, IOwinContext context)
         {
-            MixUpDbContext db = context.Get<MixUpDbContext>();
+            MixUpDbContext appDbContext = context.Get<MixUpDbContext>();
 
-            MixUpUserManager manager = new MixUpUserManager(new UserStore<MixUpUser>(db));
+            MixUpUserManager manager = new MixUpUserManager(new UserStore<MixUpUser>(appDbContext));
 
             manager.PasswordValidator = new PasswordValidator
             {

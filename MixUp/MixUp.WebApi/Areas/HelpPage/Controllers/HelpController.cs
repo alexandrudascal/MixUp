@@ -3,6 +3,9 @@ using System.Web.Http;
 using System.Web.Mvc;
 using MixUp.WebApi.Areas.HelpPage.ModelDescriptions;
 using MixUp.WebApi.Areas.HelpPage.Models;
+using MixUp.Infrastructure;
+using System.Web;
+using Microsoft.AspNet.Identity.Owin;
 
 namespace MixUp.WebApi.Areas.HelpPage.Controllers
 {
