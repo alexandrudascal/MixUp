@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNet.Identity.Owin;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity.Owin;
 using MixUp.Infrastructure;
+using System.Collections;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Web;
 using System.Web.Http;
@@ -16,9 +19,9 @@ namespace MixUp.WebApi.Controllers
                return Request.GetOwinContext().GetUserManager<MixUpUserManager>();
             }
         }
-        public void Get()
+        public IEnumerable<IdentityUser> Get()
         {
-            var a = UserManager;
+            return UserManager.Users;
         }
     }
 }
