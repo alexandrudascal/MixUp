@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MixUp.Entities
 {
-    enum UserRoles
+    public enum UserRoles
     {   
         Admin,
         User

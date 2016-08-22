@@ -15,7 +15,6 @@ namespace MixUp.DataAccess
             :base("MixUpContext")
         {
         }
-
         static MixUpDbContext()
         {
             Database.SetInitializer(new MixUpDbInitializer());
